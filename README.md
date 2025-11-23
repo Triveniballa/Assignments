@@ -1,95 +1,92 @@
-✅ ES6 JavaScript Assignment – README
+# ES6 JavaScript Assignment 
 
-This repository contains solutions for the full ES6 assignment, including:
+This repository contains solutions to all **12 ES6 topics**, written cleanly in one file:
 
-✔️ Template Literals
-✔️ Arrow Functions
-✔️ Spread & Rest Operators
-✔️ Object & Array Destructuring
-✔️ Scoping (var, let, const)
-✔️ Optional Chaining
-✔️ Ternary Operators
-✔️ Shorthand Syntax
+➡️ **Assignment.js**
 
-All answers are written inside Assignment.js.
+---
 
-📌 Topics Covered
-1. Template Literals
+## 1. Template Literals
+- Expression interpolation using `${ }`
+- Multi-line template strings
+- Full name printed using template literals
 
-Expression interpolation (${})
+---
 
-Multi-line strings
+## 2. Arrow Functions & `this`
+- Normal function → arrow function conversion
+- Explanation: arrow functions do NOT bind their own `this`
+- Corrected version using normal function for proper `this` behavior
 
-Full name printing
+---
 
-2. Arrow Functions & This
+## 3. Rest, Spread & Copying Objects
+- Shallow copy using spread (`{ ...obj }`)
+- Merging objects with spread
+- `maxValue(...nums)` function using rest operator
 
-Converting normal functions to arrow functions
+---
 
-Why arrow functions don’t bind this
+## 4. Destructuring & Optional Chaining
+- Array destructuring `[a, b]`
+- Object destructuring `{ brand }`
+- Safe access using optional chaining (`obj?.prop?.nested`)
 
-Fixing this using normal methods
+---
 
-3. Spread & Rest
+## 5. Scoping (`var`, `let`, `const`)
+- `var` → function/global scope
+- `let` → block scope
+- `const` → cannot be reassigned
 
-Merging arrays/objects
+---
 
-Copying objects
+## 6. Ternary Operator Practice
+- Simple ternary conversion
+- Adult/Minor check
+- Nested ternary: positive / zero / negative
 
-Variable argument functions
+---
 
-4. Destructuring & Optional Chaining
+## 7. Spread, Rest & Arrays
+- Add elements to array with spread
+- Combine arrays using spread
+- Function using rest to collect arguments
 
-Array + Object destructuring
+---
 
-Safe property access using ?.
+## 8. Object Destructuring & Shorthand
+- Extracting properties using destructuring
+- Converting object to shorthand syntax
+- Adding methods using shorthand
 
-5. Scoping (let/var/const)
+---
 
-Block scope vs function scope
+## 9. Template Literals (More Practice)
+- Print today's date with `toDateString()`
+- Score message using template literal
 
-Why const prevents reassignment
+---
 
-6. Ternary Operators
+## 10. Arrow Function Shorthands
+- One-line addition function
+- `isAdult(age)` returning true/false
+- `double(n)` returns twice the number
 
-Basic and nested ternaries for conditional outputs
+---
 
-7. Arrays with Spread & Rest
+## 11. Spread Operator (Arrays & Objects)
+- Cloning arrays using spread
+- Adding element to beginning of array
+- Merging & overriding object properties
 
-Adding elements
+---
 
-Combining arrays
+## 12. Optional Chaining (Advanced)
+- Access nested property safely
+- Missing property returns `undefined`
+- Prevents runtime errors in deep nesting
 
-Collecting arguments
+---
 
-8. Object Shorthand
 
-Shorthand properties
-
-Shorthand methods
-
-9. More Template Literals
-
-Dynamic date printing
-
-Score message
-
-10. Arrow Shorthands
-
-One-line functions
-
-Boolean checks
-
-Number transformations
-
-11. Spread Operator
-
-Cloning arrays
-
-Adding elements at the beginning
-
-Overriding object properties
-
-12. Optional Chaining
-
-Preventing runtime errors for missing nested properties
